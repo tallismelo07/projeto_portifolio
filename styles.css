@@ -1,13 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: #f6f6f6;
 }
 
-h1 {
-    font-family: 'Krona One', sans-serif;
-}
-
-span {
+.titulo-destaque {
     color: #22d4fd;
 }
 
+#home, #about {
+    background-color: #22d4fd;
+    color: white;
+    border-radius: 2px;
+    font-size: 150%;
+}
