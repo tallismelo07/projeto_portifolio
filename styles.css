@@ -13,10 +13,16 @@ body {
 .titulo-destaque {
     color: #22d4fd;
 }
-
+/*
 #home, #about {
     background-color: #22d4fd;
     color: white;
     border-radius: 2px;
     font-size: 150%;
+}
+    */
+.apresentacao {
+    display: flex;
+    align-items: center;
+    
 }
